@@ -6,6 +6,9 @@ Brief overview of directories in this repo:
 EAD Authoring: 
 What it says on the tin--I needed an easy way to leverage student/non-technically minded archivists to help convert physical or Word document finding aids into CSVs that could be easily converted into EAD without manual encoding by someone who knew EAD/XML.
 
+FSA-OWI Work
+This code gets the URLs, specific metadata, and location coordinate data using the Library of Congress and Mapquest APIs for West Virginia photos in the FSA-OWI collection for data visualization and exploration purposes.
+
 File Deduplication: 
 The shared network drive for my institution was overcrowded with a significant number of duplicate files. I needed a way for me to see the locations and checksums for files to easily detect duplicates and get an overview of the number and structure of files in the drive. 
 
