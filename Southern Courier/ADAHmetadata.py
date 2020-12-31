@@ -14,7 +14,7 @@ def getMetadata(numberPagesStart,numberPagesStop):
             continue
         if linkopen:
             workingMetadata = []
-            '''
+
             soup = BeautifulSoup(linkopen, "html.parser")
             resultsSubject = soup.select("#metadata_subjec > a")  
             resultsFile = soup.select("#metadata_fila > a")
@@ -23,9 +23,7 @@ def getMetadata(numberPagesStart,numberPagesStop):
             resultsDescription = soup.select("#metadata_descri")
             resultsDate = soup.select("#metadata_date > a")
             resultsTimePeriod = soup.select("#metadata_time > a")
-            '''
-            workingMetadata.append(ADAHBaseURL+str(i))
-            '''
+          
             if resultsFile != None and resultsFile != []:
                 workingMetadata.append(resultsFile[0].get_text())
             else: 
@@ -56,7 +54,7 @@ def getMetadata(numberPagesStart,numberPagesStop):
                     workingMetadata.append((i.get_text()))
             else: 
                 workingMetadata.append("None") 
-            '''
+       
             allMetadata.append(workingMetadata)
             if (len(allMetadata)%100) == 0: 
                 with open('ADAHmetadata.csv', 'w', newline='') as csv_file:
