@@ -1,11 +1,6 @@
 import csv
 import os
-'''
-Things to solve: 
-Test output against valid EAD from AS output
-Test output when uploaded into AS
-
-'''
+Are 
 
 inputDirectory = "C:\\Users\\eliza\\Code\\CSVtoEAD\\InputCSV\\"
 outputDirectory = "C:\\Users\\eliza\\Code\\CSVtoEAD\\OutputEAD\\"
