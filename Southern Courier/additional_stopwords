@@ -1,1 +1,2 @@
 All URLs were replaced with the word "URL" as the punctuation within the URL caused MALLET to understand the discrete portions of URLs as words.
+"available online (not on the ADAH website)" was abbreviated to "online".
